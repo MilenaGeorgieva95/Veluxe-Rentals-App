@@ -1,9 +1,14 @@
 import "./App.css";
+import HeroSection from "./components/Hero/HeroSection";
+import Navbar from "./components/Nav/Navbar";
 
 function App() {
   return (
     <>
-      <h1>Hello, world!</h1>
+      <div className="wrapper">
+        <Navbar />
+        <HeroSection />
+      </div>
     </>
   );
 }
