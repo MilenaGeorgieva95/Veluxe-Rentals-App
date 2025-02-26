@@ -1,0 +1,12 @@
+.heroSection {
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  background-image: url("/images/yuvraj-singh-tmAynVA_ihE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+}
