@@ -48,33 +48,6 @@ body {
   height: 100%;
 }
 
-.navContainer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.navContainer .mainNav {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: black;
-}
-
-.navContainer .userNav {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  background-color: black;
-}
-
-.navContainer li {
-  display: inline-block;
-  color: antiquewhite;
-}
-
 .hero-section {
   display: block;
   width: 100%;

@@ -1,3 +1,28 @@
-.navbar {
-  border: 2px solid black;
+.navContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.mainNav {
+  width: 100%;
+  display: flex;
+  flex-grow: 2;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+
+.userNav {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  gap: 2rem;
+  align-items: flex-end;
+  background-color: black;
+}
+
+.navContainer li {
+  display: inline-block;
+  color: antiquewhite;
 }

@@ -1,10 +1,11 @@
 import SecondaryBtn from "../Buttons/SecondaryBtn";
+import styles from "../Nav/Navbar.module.css";
 
 export default function Navbar() {
   return (
     <>
-      <nav className="navContainer">
-        <ul className="mainNav">
+      <nav className={styles.navContainer}>
+        <ul className={styles.mainNav}>
           <li>
             <SecondaryBtn text="Home" />
           </li>
@@ -16,7 +17,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <ul className="userNav">
+        <ul className={styles.userNav}>
           <li>
             <SecondaryBtn text="Register" />
           </li>
